@@ -1,0 +1,20 @@
+body {
+    background-color: mintcream;
+}
+
+.color-indigo {
+    color: indigo;
+}
+
+.bg-indigo {
+    background-color: indigo;
+}
+
+.quiz {
+    background-color: mediumpurple;
+    width: 60%;
+}
+
+.intro {
+    height: 300px;
+}
