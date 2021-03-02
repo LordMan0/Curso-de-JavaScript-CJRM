@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(157, 207, 168);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(123, 179, 106);
+}
+
+.list-group-item {
+    border-radius: .25rem;
+    margin: 5px;
+    width: 85%;
+    margin-left: 25px;
+}
+
+.green-text, .list-group-item{
+    color: rgb(76, 129, 104);
+}
+
+.button-icon{
+    color: white;
+    background-color: rgb(81, 138, 114);
+}
+
+.far{
+    color: rgb(0, 128, 75);
+    cursor: pointer;
+}
+
+.principal-body {
+    text-align: center; 
+    width: 500px;
+}
