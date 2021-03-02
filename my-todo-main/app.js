@@ -65,7 +65,6 @@ const searchTodo = (inputValue, lisArray) => {
 }
 
 divSearchTodo.addEventListener('input', event => {
-    event.preventDefault()
     const inputValue = event.target.value.trim().toLowerCase()
     const lisArray = Array.from(todosContainer.children)
 
