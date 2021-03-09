@@ -23,12 +23,12 @@ const showCityCard = () => {
 const showCityWeatherInfo = async cityName => {
     const [{ Key, LocalizedName }] = await getCityInfo(cityName)
     const [{ WeatherText, Temperature, IsDayTime, WeatherIcon }] = await getWeatherInfo(Key)
-    const timeIcon = `<img class="icon" src="./src/icons/${WeatherIcon}.svg" />`
+    const timeIconImg = `<img class="icon" src="./src/icons/${WeatherIcon}.svg" />`
     
     changeTheColorByDayTime(IsDayTime)
 
     timeImg.src = IsDayTime ? './src/sun.svg' : './src/moon.svg'
-    timeIcon.innerHTML = timeIcon
+    timeIcon.innerHTML = timeIconImg
     cityNameText.textContent = LocalizedName
     cityWeatherText.textContent = WeatherText
     cityTemperatureText.textContent = Temperature.Metric.Value
